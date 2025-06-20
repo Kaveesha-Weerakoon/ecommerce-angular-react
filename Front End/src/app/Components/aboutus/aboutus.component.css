@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+.main{
+ //border:1px solid red;
+  height: 550px;
+  width: 100%;
+  background-color:#f7f1e3;
+  display:grid;
+  grid-template-rows: 30% 70%;
+}
+.maincontent{
+  //border:1px solid red;
+}
+.up{
+  color:black;
+  margin: auto;
+  width:auto;
+  font-size:45px;
+  font-weight:bold;
+}
+.down{
+  display: grid;
+  grid-template-columns: 100%;
+  align-items:center;
+  padding-left: 350px;
+}
+.aboutus{
+  //border:1px solid red;
+  height:350px;
+  width:650px;
+  color:black;
+  font-size:34px;
+  font-weight:bold;
+  font-family: 'Dongle', sans-serif;
+}

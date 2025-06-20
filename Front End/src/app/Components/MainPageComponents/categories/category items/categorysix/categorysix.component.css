@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Supermercado+One&display=swap');
+
+.main{
+  //border:1px solid red;
+  padding-top: 10px;
+  width: 100%;
+  height:500px;
+  display:grid;
+  grid-template-rows: 13% 87%;
+}
+.des{
+  //border:1px solid red;
+  width:auto;
+  margin:auto;
+  font-size:45px;
+  font-family: 'Supermercado One', cursive;
+}
+.itemsa{
+  //border:1px solid red;
+  padding-top:20px;
+}
+.items{
+//border: 1px solid red;
+  display: flex;
+  height: 350px;
+  justify-content: space-between;
+}
+.up{
+//border: 1px solid red;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 280px;
+  width: 100%;
+}
+.down{
+//border: 1px solid red;
+  height: 70px;
+  width: 100%;
+}
+.one{
+  align-items: center;
+  justify-content: center;
+//border: 1px solid red;
+  display: grid;
+  cursor: pointer;
+}
+div.item:hover{
+  background-color: #dfe6e9;
+}
+.item{
+//border: 1px solid red;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.txt2{
+  align-content: center;
+  align-items: center;
+  display: flex;
+//border: 1px solid red;
+  justify-content: center;
+  height: 24px;
+  width: 100%;
+}

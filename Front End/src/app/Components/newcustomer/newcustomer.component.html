@@ -1,0 +1,30 @@
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>
+    Registation Successful
+  </strong>Welcome to Buy Go
+  <button (click)="closealert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+
+</div>
+<div class="main">
+  <div class="mainup">Join with Buy Go</div>
+  <div class="maincenter">
+    <img src="assets/newcustomer.jpg"  alt="img" height="200px" width="250px">
+  </div>
+
+  <form class="maindown" (ngSubmit)="submitForm()" [formGroup]="form" >
+    <div class="customdata left"><h4 class="detail">Full Name:</h4></div>
+    <div class="customdata"><input class="box" formControlName="customername"type="text"></div>
+    <div class="customdata left"><h4 class="detail">Email:</h4></div>
+    <div class="customdata"><input class="box" formControlName="Email" type="text"></div>
+    <div class="customdata left"><h4 class="detail">Adrress:</h4></div>
+    <div class="customdata"><input class="box" formControlName="customeraddress" type="text"></div>
+    <div class="customdata left"><h4 class="detail">Contact Number:</h4></div>
+    <div class="customdata "><input class="box" formControlName="contactnumber" type="text"></div>
+    <div class="customdata left"><h4 class="detail">Create a password:</h4></div>
+    <div class="customdata "><input class="box" formControlName="password" type="password"></div>
+    <div class="customdata one"><button [disabled]="form.invalid"  type="submit" class="btn btn-primary">Join Buy Go</button></div>
+  </form>
+</div>
+

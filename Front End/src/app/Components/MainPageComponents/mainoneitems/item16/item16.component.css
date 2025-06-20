@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main{
+//border: 1px solid red;
+  width: 100%;
+  height:850px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.mainleft {
+//border: 1px solid red;
+  display: grid;
+  grid-template-rows:65% 35%;
+}
+.leftup{
+/border: 1px solid red;
+  align-items: center;
+  display: flex;
+  padding-left:50px;
+  padding-right:50px;
+}
+.leftdown{
+//border: 1px solid red;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.leftdownL{
+//border: 1px solid red;
+  display: flex;
+
+  padding-left: 20px;
+//padding-bottom: 100px;
+}
+.leftdownR{
+//border: 1px solid red;
+//display: flex;
+//align-items: center;
+  padding-left: 20px;
+//padding-bottom: 100px;
+}
+.mainright{
+//border: 1px solid black;
+  display: grid;
+  grid-template-rows: 55% 45%;
+
+}
+.rightup{
+//border: 1px solid red;
+  display: grid;
+  grid-template-rows: 20% 45% 35%;
+}
+.head{
+//border: 1px solid red;
+  align-items: center;
+  padding-top: 10px;
+  width: auto;
+  margin: auto;
+  font-size: 38px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+.center{
+//border: 1px solid red;
+  display: grid;
+  width: auto;
+  margin: auto;
+//grid-template-columns: 40% 60%;
+}
+.cart{
+//border: 1px solid red;
+  display: flex;
+  margin: auto;
+  width: auto;
+}
+.price{
+//border: 1px solid red;
+  display: grid;
+  grid-template-rows:50% 50% ;
+
+}
+.pricetag{
+//border: 1px solid red;
+  background: linear-gradient(to right, #fc5c65 35%, #fa983a 65%);
+  display: flex;
+  align-items: center;
+  width: 225px;
+  margin: auto;
+  height: 50px;
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  padding-left: 41px;
+  font-family: 'Roboto', sans-serif;
+//font-style: italic;
+}
+.buttonbuy{
+  height: 100px;
+  width: auto;
+  margin: auto;
+}
+.rightdown{
+//border: 1px solid red;
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.btn-primary{
+  display: flex;
+  align-items: center;
+  background-color: #fa983a;
+  width: 225px;
+  height: 50px;
+  font-size: 32px;
+  padding-left: 46px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.4px;
+//font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  border-color: #fa983a;
+}
+.data{
+//border: 1px solid red;
+  font-size: 20px;
+  width: 100% ;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.btn-primary:hover{
+  background-color: #e84118;
+}
